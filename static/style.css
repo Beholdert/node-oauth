@@ -96,13 +96,18 @@ a:visited {
     text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     button {
-        width: 15% !important;
+        width: 23% !important;
+    }
+
+    header h2 {
+        font-size: 19px;
+        margin-top: 1.5%;
     }
 
     .login {
-        width: 60%;
+        width: 80%;
         margin-top: 18%;
     }
 }
