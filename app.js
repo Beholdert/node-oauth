@@ -1,5 +1,6 @@
 const express = require('express');
 const authRoutes = require('./routes/auth-routes');
+const config = require('./config/config');
 
 const app = express();
 
@@ -14,4 +15,4 @@ app.get('/', (req, res) => {
     res.render('home');
 })
 
-app.listen(8080, () => console.log('server is running on port 8080'));
+app.listen(process.env.PORT || 8080, () => console.log(`server is running on port ${process.env.PORT}`));
