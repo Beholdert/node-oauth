@@ -1,0 +1,108 @@
+body {
+    font-family: Nunito;
+}
+header {
+    background: hsl(0, 0%, 96%);
+    width: 95%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+header h2 {
+    color: hsl(0, 0%, 21%);
+    float: left;
+    margin-left: 0px;
+    height: 80%;
+    position: relative;
+    top: 15%;
+    margin: 0;
+    padding-left: 2%;
+}
+
+
+.log {
+    display: block;
+    float: right;
+    height: 70%;
+    width: 10%;
+    position: relative;
+    top: 15%;
+    border: 0;
+    margin-right: 2%;
+    border-radius: 3px;
+    background-color: hsl(348, 100%, 61%);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    -moz-user-focus: 0;
+}
+
+.login {
+    width: 30%;
+    height: 400px;
+    background: hsl(0, 0%, 97%);
+    margin: 5% auto;
+    border: 1px solid hsl(0, 0%, 89%);
+    border-radius: 3px;
+}
+
+
+.login h2 {
+    color: hsl(0, 0%, 28%);
+    text-align: center;
+}
+
+.login a {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 8% auto;
+    border: 0;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    transition: all ease 0.5s;
+}
+
+.google {
+     background: #ef5350;
+}
+
+.facebook {
+    background: #5C6BC0;
+}
+
+.github {
+    background: #37474F;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login  a.google:hover {
+    background: #d32f2f;
+} 
+
+.login  a.facebook:hover {
+    background: #3949AB;
+} 
+
+.login a.github:hover {
+    background: #212121;
+} 
+
+a:visited {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    button {
+        width: 15% !important;
+    }
+
+    .login {
+        width: 60%;
+        margin-top: 18%;
+    }
+}
