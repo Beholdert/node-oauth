@@ -96,7 +96,20 @@ a:visited {
     text-decoration: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
+
+    header h2 {
+        font-size: 19px;
+        margin-top: 1.5%;
+    }
+
+    .login {
+        width: 70%;
+        margin-top: 18%;
+    }
+}
+
+@media screen and (max-width: 700px) {
     button {
         width: 23% !important;
     }
@@ -111,3 +124,4 @@ a:visited {
         margin-top: 18%;
     }
 }
+
